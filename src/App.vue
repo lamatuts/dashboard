@@ -1,12 +1,17 @@
 <template>
-    <dashboard></dashboard>
-
+  <div id="initarea">
+      <dashboard></dashboard>
+  </div>
 </template>
 <script>
-import Dashbaord from './components/dashboard/Dashboard.vue';
+import dashboard from './components/dashboard/Dashboard.vue';
 export default {
-  name: "appinit",
+  name: "initarea",
   components: {
-    "dashboard":Dashboard
+    dashboard
   }
 }
+</script>
+<style lang="stylus">
+  @import './stylus/main'
+</style>

@@ -20,8 +20,8 @@
           </v-container>
         </main>
       <right-drawer></right-drawer>
-      <footer-area></footer-area>
     </v-app>
+
 </template>
 
 <script>
@@ -30,7 +30,7 @@ import RightDrawer from './drawers/RightDrawer.vue';
 import LeftDrawer from './drawers/LeftDrawer.vue';
   export default {
     components: {
-      Toolbar, RightDrawer,LeftDrawer,FooterArea
+      Toolbar, RightDrawer,LeftDrawer
     }
   }
 </script>
