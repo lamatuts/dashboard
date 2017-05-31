@@ -1,6 +1,6 @@
 # vue-js-dashboard
 
-> A vue js material design dashboard with laravel
+> A vue js dashboard
 
 ## Build Setup
 
